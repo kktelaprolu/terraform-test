@@ -14,3 +14,6 @@ resource "google_pubsub_topic" "topic2" {
 resource "google_pubsub_topic" "topic3" {
   name = "cloudfunction_test_topic3"
 }
+resource "google_pubsub_topic" "topic4" {
+  name = "cloudfunction_test_topic4"
+}
